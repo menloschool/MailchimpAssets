@@ -43,14 +43,14 @@ div .thumb { padding: 5px; background-color: #29448c; }
                     <div style="font-family: Arial, Verdana, sans-serif; font-size: 10px; line-height: 110%; font-weight: bold; color: #999999; text-align: right; margin-right: 20px;">*|DATE:l - F j, Y|*</div>
                     	<div style="padding: 10px; margin: 10px;">
 						<div style="font-family: Arial, Verdana, sans-serif; font-size: 12px; line-height: 150%; color: #000;">
-							<p mc:edit="top_content" mc:hideable>Letter text goes here</p>
+							<p><div mc:edit="top_content" mc:hideable>Letter text goes here</div></p>
 
 							<div id="featured-news">
 	                            <!-- Alumni News -->
 	                            <h2 style='font-family: Arial, Helvetica, sans-serif; font-size: 16px;  font-weight: bold; line-height: 120%; color: #0164aa; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e5e5e5;'>Alumni News</h2>
 	                            <div id="alumni_news" mc:repeatable>
 		                            <h3 style="color: #2e4990 !important; font-size: 14px; font-family: Arial, Helvetica, sans-serif; margin: 0;" mc:edit="news_title">**NEWS TITLE**</h3>
-									<img mc:edit="news_image" align="right" class="thumb" hspace="2" style="border: 2px #1a498f solid; float: right; margin: 4px 0 10px 20px; padding: 0; max-width:90px; max-height:120px;"><p style="font-family: Arial, Verdana, sans-serif; font-size: 12px; line-height: 150%; color: #000;" mc:edit="news_description">**SHORT DESCRIPTION**</p>
+									<img mc:edit="news_image" align="right" class="thumb" hspace="2" style="border: 2px #1a498f solid; float: right; margin: 4px 0 10px 20px; padding: 0; max-width:90px; max-height:120px;"><p><div style="font-family: Arial, Verdana, sans-serif; font-size: 12px; line-height: 150%; color: #000;" mc:edit="news_description">**SHORT DESCRIPTION**</div></p>
 									 <span mc:edit="news_link"><img src="http://web.menloschool.org/mailchimp_assets/intheloop/readmore.gif" height="24" width="69" alt="Read More" border="0" /></span>
 								</div>
 
@@ -60,7 +60,7 @@ div .thumb { padding: 5px; background-color: #29448c; }
 		                            <div id="alumni_gallery" mc:repeatable>
 										<a href="" class="image"><img mc:edit="gallery_image" /></a>
 										<h3 style="color: #2e4990; text-transform: uppercase; font-weight: bold; margin-bottom:0" mc:edit="gallery_title">**GALLERY TITLE**</h3>
-										<p mc:edit="gallery_description">**SHORT DESCRIPTION**</p>
+										<p><div mc:edit="gallery_description">**SHORT DESCRIPTION**</div></p>
 										<p><span mc:edit="gallery_link"><img src="http://web.menloschool.org/mailchimp_assets/intheloop/viewmore.gif" height="24" width="69" alt="View More" /></span></p>
 									</div>
 								</div>
@@ -114,7 +114,7 @@ div .thumb { padding: 5px; background-color: #29448c; }
 			<p style="margin:0; padding:0; line-height: 135%; font-size: 11px; font-family:Arial, Helvetica, sans-serif; color:#848484;">
                   *|HTML:LIST_ADDRESS_HTML|*<br />
                   *|LIST:DESCRIPTION|*<br />
-                  Click <a href="*|UNSUB|*" style="color:#848484;">here</a> to unsubscribe
+                  You can click <a href="*|UNSUB|*" style="color:#848484;">here</a> to unsubscribe.
                 </p>
 		</td>
 	</tr>
